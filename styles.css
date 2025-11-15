@@ -1,5 +1,14 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+    animation: colorChange 20s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% { background-color: #FFDDC1; }
+    25% { background-color: #FFE4E1; }
+    50% { background-color: #E0FFFF; }
+    75% { background-color: #E6E6FA; }
+    100% { background-color: #FFFACD; }
 }
 
 h1{
@@ -23,9 +32,34 @@ h1:hover{
     text-align: left;
     margin: 5%;
     width: 50%;
+    overflow-wrap: break-word;
 }
 
 h2 {
     text-align: left;
     color: rgb(4, 53, 33);
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
 }
