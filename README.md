@@ -1,0 +1,1 @@
+Dash is a simple and minimal dashboard which shows the current date and lets you write a custom note.
